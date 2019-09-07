@@ -1,0 +1,82 @@
+/* All and any form related styles belong */
+form { width:auto;}
+form legend { display:none; }
+form label { display:block; margin:0 0 5px 0; text-align:left; line-height:1.2em; color:#5a85d7; }
+form option { padding-right:10px; }
+form option.header { padding-left:2em; font-weight:bold; }
+ /* form input, form select, form textarea { display:block; width:90%; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:1em; padding:1px 3px; margin:0; color:#363636; border:1px solid #5a85d7 !important; } */
+form select { width:95%; }
+form textarea { overflow:auto; }
+input[type="hidden"], input.input_hidden { display:none !important; }
+form input.input_checkbox, input[type="checkbox"], form input.input_radio, input[type="radio"] { display:block; height:18px; width:18px!important; border:none !important; }
+form input.input_submit, form input.input_button { background-color:#fff; height:auto; width:auto !important; color:#363636; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:500; text-align:left; cursor:pointer; padding:0 0 0 1px; margin:0; }
+form input.input_button { background:#c1c1c1 url(img/template/btn_bg.html) 0 50% repeat-x; border-color:#999 !important; }
+form input.date, form input.time, form select.date, form select.time { width:auto; }
+form select.select_date { width:auto !important; display:inline; }
+#flasharea, .alert { color:#b41e2a; font-size:0.9em; font-weight:700; }
+form div { float:left; line-height:23px; } 
+form div.fullwidth, form div.row { width:100%; } 
+form div.row { padding-bottom:2em; }form div.inline div.optional, form div.inline div.required, form div.inline div.submit, form div.inline label, form div.inline input, form div.inline select, form div.inline textarea { float:left; vertical-align:middle; }
+
+form div.inline input { width:40%; }
+form div.inline select { width:42%; }
+form div.inline label, form div.inline .label { width:25%; }  
+form div.inline input.input_submit { margin-left:1px; }
+form div.inline label { margin-right:4px; }
+
+form div.inline-block div.optional, form div.inline-block div.required, form div.inline-block div.submit, form div.inline-block label, form div.inline-block input, form div.inline-block select, form div.inline-block textarea { display:inline; float:left; vertical-align:middle; } 
+form div.inline-block input { width:53%; } 
+form div.inline-block label, form div.inline-block .label { width:35%; margin-right:12px; text-align:right; }   
+form div.inline-block select { width:55%; } 
+form div.inline-block input.input_submit { margin-left:1px; } 
+ 
+form .detail a { color:#115d81!important; text-decoration:underline!important; } 
+form .detail a:hover, .detail a:focus { text-decoration:none!important; } 
+/*
+/
+/
+*/
+/* Page/Area specific style modifications */
+div.layout_right form { margin:0; }
+div.layout_right form *  { border-color:#999 !important; }
+div.layout_right select { width:100% !important; }
+div.layout_right input { width:148px !important; }
+div.layout_right input.input_submit { font-size:10px; width:20px !important; float:right !important; }
+div.layout_right input.input_button { width:100% !important; }
+div.layout_left input.input_button { font-weight:700; }
+input.btnSearch, input.btnSearchAgain, input.btnContinue, input.btnOk {
+  width: 37px;
+  height: 23px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent url(Images/btn_search.gif) no-repeat center top;
+  color: Black;
+  text-align: right;
+  font-size: 0;
+  
+  cursor: pointer; /* hand-shaped cursor */
+  }
+input.btnSearchAgain { width:116px!important; background-image:url(Images/btn_search_again.gif); } 
+input.btnContinue { width:180px!important; background-image:url(Images/btn_continue.gif); } 
+input.btnContinue { width:180px!important; background-image:url(Images/btn_ok.gif); } 
+
+.m06 input.textfield { background: url(Images/m06_form_bg.gif) no-repeat; height:20px; width:148px; padding: 2px 0 0 15px; }
+.m06 form { padding: 0; margin: 0; height: 38px;}
+.m06 form .label { padding: 8px 0 0 10px; }
+.m06 form .inputElement { padding: 8px 0 0 9px; display: block;}
+.m06 form .btnSearch { padding-top: 3px;  }
+form>btnSearch { /* For non-IE browsers*/
+  height: 0px;
+}
+
+/* t20 */ 
+.searchResults input { vertical-align:middle; } 
+.searchResults input.textfield { background:#fff url(Images/form_search_icon.gif) 4px 50% no-repeat; border:solid #c4c2c3; border-width:2px 1px 1px 1px; width:390px; height:19px; line-height:19px; font-size:12px; padding-left:18px; } 
+.searchResults input.btnSearchAgain { margin:0 0 0 8px; } 
+ 
+/* t21 */ 
+.contactUs label { color:#343434; } 
+.contactUs select { border:1px solid #1d527e!important; } 
+.contactUs input.btnContinue { margin-right:10px; } 
+/* */

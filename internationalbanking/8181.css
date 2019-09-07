@@ -1,0 +1,220 @@
+.rightContent {
+  float: right;
+  width: 225px;
+}
+.rightContent h2 {
+  color: #b0d2d8;
+}
+.rightContent .module {
+  margin-bottom: 10px;
+  background: url(Images/cta-background.html) repeat-x scroll 0 0 #004E6F;
+}
+.rightContent .module .bd {
+  /*background: #304049 url(/Images/cta-background.jpg) top left repeat-x;*/
+  /*background: #304049;*/
+  color: #BADBDD;
+  padding: 10px;
+  font-size: 14px;
+}
+.rightContent .module p {
+  color: #fff;
+}
+.rightContent .module .bd li {
+  padding: 5px 0 5px 0;
+}
+.rightContent .module .bd li a {
+  display: block;
+  line-height: 19px;
+  background:  url(Images/cta_arrow.gif) right top no-repeat;
+}
+#main-carousel {
+  position: relative;
+  width: 722px;
+  height: 365px;
+  overflow: hidden;
+  background: #000000 url(Images/carousel_bg.html) bottom left repeat-x;
+}
+#main-carousel ul.slides,
+#main-carousel ul.slides li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 722px;
+  height: 365px;
+}
+#main-carousel ul.slides li {
+  display: none;
+}
+#main-carousel ul.slides li.first {
+  display: block;
+}
+#main-carousel ul.slides li img {
+  width: 722px;
+  height: 305px;
+}
+#main-carousel p {
+  margin: 0;
+  padding: 0 10px;
+  height: 60px;
+  line-height: 60px;
+  color: #00adef;
+}
+#main-carousel strong {
+  font-weight: bold;
+}
+#main-carousel .controls {
+  position: absolute;
+  right: 10px;
+  bottom: 23px;
+}
+#main-carousel .controls ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#main-carousel .controls ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 18px;
+  height: 17px;
+  float: left;
+}
+#main-carousel .controls li img {
+  display: block;
+}
+.three-col {
+  position: relative;
+  background: #fff url(Images/panel-background-with-border.html) top left repeat-x;
+  overflow: hidden;
+  width: 964px;
+}
+.three-col .panel {
+  margin: 0;
+  position: relative;
+  width: 296px !important;
+  height: 150px;
+  float: left;
+  border-left: 1px solid #000;
+  color: #000;
+}
+.three-col .panel.first {
+  border-left: 0;
+}
+.three-col .panel h2 {
+  color: #0b374d;
+}
+.three-col .panel a {
+  position: absolute;
+  bottom: 9px;
+  left: 9px;
+  border: 0;
+}
+
+#pageWrap #mainContent {
+  padding: 0 0 0 0;
+}
+
+#footer-promos {
+  width: 964px;
+  height: 115px;
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+  padding: 10px 0 10px 0;
+}
+
+#footer-promos li {
+  width: 222px;
+  height: 79px;
+  float: left;
+  border-left: 1px solid #000;
+  position: relative;
+  color: #04a9e6;
+  font-weight: bold;
+  font-size: 16px;
+  background: #000;
+  padding: 27px 9px 9px 9px;
+}
+#footer-promos a {
+  color: #04a9e6;
+  font-size: 12px;
+  position: absolute;
+  bottom: 9px;
+  left: 9px;
+  padding-left: 18px;
+  background: url(Images/footer-list-marker.html) top left no-repeat;
+}
+#bwi-hp-footer {
+  background: #fff url(Images/panel-background-with-border.html) top left repeat-x;
+  width: 964px;
+  overflow: hidden;
+}
+#bwi-hp-footer .section h3 {
+  padding: 10px 0 10px 0;
+  font-size: 15px;
+  /*color: #0b374d;*/
+    color: #116185;
+
+}
+#bwi-hp-footer .section {
+  width: 221px;
+  height: 150px;
+  padding: 9px 9px 9px 9px;
+  float: left;
+  margin-left: 1px;
+  border-left: 1px solid #000;
+  color: #000;
+}
+#bwi-hp-footer .section.first {
+  border-left: 0;
+}
+#bwi-hp-footer .section li {
+  background: url(Images/footer-list-marker.html)  left top no-repeat;
+  padding: 0 0 5px 18px;
+}
+#bwi-hp-footer .section li a {
+  font-weight: bold;
+  /*color: #0b374d;*/
+    color: #116185;
+
+}
+ 
+#main-carousel a,
+#main-carousel a:link,
+#main-carousel a:visited,
+#main-carousel a:hover,
+#main-carousel a:active {
+    text-decoration: none;
+    border-bottom: 0px;
+    color: #00adef;
+}
+ 
+
+div.ctaModule div.cta {
+    padding-bottom: 10px;
+}
+
+div.ctaModule div.cta ul li {
+    font-size: 14px;
+    color: #BADBDD;
+    paddin-right: 0px;
+    margin-right: 0px;
+    display: block;
+}
+ 
+div.ctaModule div.cta ul li a {
+    color: #BADBDD;
+    padding-right: 10px;
+}
+ 
+div.m37 a {
+    text-decoration: underline;
+}
+ 
+
+div.three-col div.panel img {
+    position: relative;
+    left: 180px;
+}
